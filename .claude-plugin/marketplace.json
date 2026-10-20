@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "wmux-orchestrator",
+  "description": "Multi-agent orchestration plugins for wmux — parallel Claude Code agents with visual terminal panes",
+  "owner": {
+    "name": "amirlehmam",
+    "email": "amir@wmux.org"
+  },
+  "plugins": [
+    {
+      "name": "wmux-orchestrator",
+      "description": "Decomposes complex dev tasks into parallel Claude Code agents coordinated through dependency-aware waves with automated review.",
+      "category": "development",
+      "source": "./",
+      "author": {
+        "name": "amirlehmam"
+      },
+      "homepage": "https://wmux.org"
+    }
+  ]
+}
